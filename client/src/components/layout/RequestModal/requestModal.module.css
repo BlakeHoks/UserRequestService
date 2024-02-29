@@ -1,0 +1,77 @@
+.dialog {
+    position: absolute;
+    width: 712px;
+    height: 546px;
+    padding: 25px 27px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.spanBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputName {
+    padding-bottom: px;
+}
+
+.select {
+    position: relative;
+    border: solid #E0E0E0 1px;
+    padding: 0 12px;
+    font-size: 16px;
+    height: 48px;
+    outline: none;
+    appearance: none;
+    overflow: hidden;
+    background: url('../../../../public/triangle-down.svg') no-repeat right;
+    background-position-x: 670px;
+    background-size: 25px;
+}
+
+.select:after {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+}
+
+.input {
+    border: solid #E0E0E0 1px;
+    padding: 0 12px;
+    font-size: 16px;
+    height: 48px;
+    outline: none;
+}
+
+.textArea {
+    border: solid #E0E0E0 1px;
+    padding: 12px 12px;
+    font-size: 16px;
+    outline: none;
+    resize: none;
+    height: 219px;
+}
+
+.btnBlock {
+    display: flex;
+    justify-content: center;
+    gap: 38px
+}
+
+.errorMessage {
+    color: #FD1E00;
+}
